@@ -21,7 +21,7 @@ void CountPositiveNumber(int[] collection)
             count++;
         }
     }
-    Console.WriteLine("Количество чисел которые больше 0 -> " + count);
+    Console.WriteLine("Количество чисел больше 0 s" + count);
 }
 int[] arr = CreateFillArray();
 CountPositiveNumber(arr);
