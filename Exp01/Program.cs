@@ -11,12 +11,12 @@ int[] CreateFillArray()
     }
     return arr;
 }
-void CountPositiveNumber(int[] colection)
+void CountPositiveNumber(int[] collection)
 {
     int count = 0;
-    for (int i = 0; i < colection.Length; i++)
+    for (int i = 0; i < collection.Length; i++)
     {
-        if (colection[i] > 0)
+        if (collection[i] > 0)
         {
             count++;
         }
